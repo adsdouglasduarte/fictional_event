@@ -1,3 +1,5 @@
+@use '../variables';
+
 .button {
   padding: 12px;
   font-size: 18px;
@@ -5,7 +7,7 @@
   white-space: nowrap;
 
   &--primary {
-    background-color: #4f2ac3;
+    background-color: variables.$purple;
     color: #fff;
     border: none;
     border-radius: 4px;
